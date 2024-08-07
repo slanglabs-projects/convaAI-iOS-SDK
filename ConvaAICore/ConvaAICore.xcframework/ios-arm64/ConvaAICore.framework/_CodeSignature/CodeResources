@@ -6,27 +6,27 @@
 	<dict>
 		<key>Info.plist</key>
 		<data>
-		T1lTkMMq/Im08nBBPtXn1nkQ2Fo=
+		Yej0dJ6kNOBLrOeDfh0GIXTkVYg=
 		</data>
 		<key>Modules/ConvaAICore.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		+2Zg70c6ZUNJxHbfSs3uDjyvjqI=
+		ohSrUDSDRxQRj7j8MeLxYbXJf3M=
 		</data>
 		<key>Modules/ConvaAICore.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		WXrHDUbA765C3ASLmwSk+OnYkkU=
+		NguOFGF8vTSw4zXoGdRxo7etqiM=
 		</data>
 		<key>Modules/ConvaAICore.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		kseQRBFt8nF+R+ES2YbBtWAajsw=
+		MzAWnb9WuTJauh2ih2ZZDQ2ZUj8=
 		</data>
 		<key>Modules/ConvaAICore.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		WXrHDUbA765C3ASLmwSk+OnYkkU=
+		NguOFGF8vTSw4zXoGdRxo7etqiM=
 		</data>
 		<key>Modules/ConvaAICore.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		azoOWfhgMuBWYam4HqnX8W2h85A=
+		PMWliec84orwSutNFYDTrJPSjUg=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -35,35 +35,35 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			OthaAtDmuZ15sFxGBKoxmpV+SStuZJI0w5YZeNwFSdk=
+			qzC5n5MJGnPHJZXByDlEahkh9OBAT86idPGdt4La3K8=
 			</data>
 		</dict>
 		<key>Modules/ConvaAICore.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Rm3JF04aRLw147W4imRZmNPWvhONvw1zhFhSi2nIMZc=
+			8pBTNdKOAoUOP1LwHxg9DHN9s7P+g1EYhTL+ncq1mLA=
 			</data>
 		</dict>
 		<key>Modules/ConvaAICore.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			JbI+V9V/0UDyDMoNlp5CF3E0Z7P9ZXGd7h02BtPDNyk=
+			/nerVQ4iNeXDeAweUAydT2QzRhrWry2JtCLFFFtDBzM=
 			</data>
 		</dict>
 		<key>Modules/ConvaAICore.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Rm3JF04aRLw147W4imRZmNPWvhONvw1zhFhSi2nIMZc=
+			8pBTNdKOAoUOP1LwHxg9DHN9s7P+g1EYhTL+ncq1mLA=
 			</data>
 		</dict>
 		<key>Modules/ConvaAICore.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			kbYauDUqtSCTRQ9A8zZklCJzuu0LUJitOKutH2Ctp4w=
+			z+Ulo9Ese1RJZlKPD8lsPqS77wOH8tfPvgelyIQnMrQ=
 			</data>
 		</dict>
 	</dict>

@@ -28,6 +28,9 @@ public struct ConvaAICapability : Swift.Decodable {
   public let isError: Swift.Bool?
   public let isFinal: Swift.Bool?
   public let isUnsupported: Swift.Bool?
+  public var parameters: [Swift.String : Any] {
+    get
+  }
   public let relatedQueries: [Swift.String]?
   public let conversationHistory: Swift.String?
   public let isParametersComplete: Swift.Bool?
