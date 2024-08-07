@@ -6,11 +6,11 @@
 	<dict>
 		<key>Info.plist</key>
 		<data>
-		G0/fgQgJfpeoH/xAJNbOs20bEsE=
+		KBgShoK5ZSJAc3vsTGbdAAQ6D+w=
 		</data>
 		<key>Modules/ConvaAICore.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		ohSrUDSDRxQRj7j8MeLxYbXJf3M=
+		ITf3syFOhky/NyivHYsTch0ktZM=
 		</data>
 		<key>Modules/ConvaAICore.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -26,11 +26,11 @@
 		</data>
 		<key>Modules/ConvaAICore.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		0K8v9XO+7CTChu9pRAwXFcSAzKI=
+		I8MEqfNjvPgsZ8+VOCtZVymmvlM=
 		</data>
 		<key>Modules/ConvaAICore.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		ohSrUDSDRxQRj7j8MeLxYbXJf3M=
+		ITf3syFOhky/NyivHYsTch0ktZM=
 		</data>
 		<key>Modules/ConvaAICore.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -46,7 +46,7 @@
 		</data>
 		<key>Modules/ConvaAICore.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		ZGZq5g6bBrQ3QOv1XA25AUKdkxA=
+		+7aGv0FnU1UB/p7i2KeMJqGQO3A=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -55,7 +55,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			qzC5n5MJGnPHJZXByDlEahkh9OBAT86idPGdt4La3K8=
+			qhU3pWayPhsuSc7gxfqylGcnEnfxR7KrIRFwzjOsQZY=
 			</data>
 		</dict>
 		<key>Modules/ConvaAICore.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -83,14 +83,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			GJrz41tT3Na8F3J3is6iw76hRWSpqR9MClBK6HiFrtA=
+			kJ+eY66iIAtdn7uAAxlTlF07aP0vUn2FS18FvTNpRCA=
 			</data>
 		</dict>
 		<key>Modules/ConvaAICore.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			qzC5n5MJGnPHJZXByDlEahkh9OBAT86idPGdt4La3K8=
+			qhU3pWayPhsuSc7gxfqylGcnEnfxR7KrIRFwzjOsQZY=
 			</data>
 		</dict>
 		<key>Modules/ConvaAICore.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -118,7 +118,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ZOKCN5cFqi02/kbo1QOxKFam1relAHoKLLJLqIH3Si8=
+			2JZIIbDcA7mk2Ns7U60lawnM2pPJHVVppTbqnbTVHFg=
 			</data>
 		</dict>
 	</dict>
