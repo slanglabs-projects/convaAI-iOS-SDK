@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name         = "ConvaAICore"
-    s.version      = "1.0.2"
+    s.version      = "1.0.3"
     s.summary      = "CocoaPod implementation of ConvaAICore SDK"
     s.description  = <<-DESC
         CONVA.ai from Slang Labs is the world's first Copilot-as-a-Service platform,

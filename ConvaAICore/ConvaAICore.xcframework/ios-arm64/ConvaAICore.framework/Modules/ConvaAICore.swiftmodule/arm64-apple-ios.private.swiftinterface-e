@@ -6,6 +6,17 @@ import Swift
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
+public enum AnyCodable : Swift.Codable, Swift.Equatable {
+  case string(Swift.String)
+  case int(Swift.Int)
+  case double(Swift.Double)
+  case bool(Swift.Bool)
+  case map([Swift.String : ConvaAICore.AnyCodable])
+  case array([ConvaAICore.AnyCodable])
+  public init(from decoder: any Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  public static func == (a: ConvaAICore.AnyCodable, b: ConvaAICore.AnyCodable) -> Swift.Bool
+}
 public enum ConvaAIEnvironment : Swift.String, Swift.Codable {
   case production
   case staging
@@ -42,9 +53,14 @@ public struct ConvaAI {
   }
   public static func initialize(with id: Swift.String, key: Swift.String, version: Swift.String, env: ConvaAICore.ConvaAIEnvironment = .production)
   #if compiler(>=5.3) && $AsyncAwait
-  public static func invokeCapability(with input: Swift.String, capabilityName: Swift.String? = nil, capabilityGroup: Swift.String? = nil, conversationHistory: Swift.String? = nil, llmKey: Swift.String? = nil) async throws -> ConvaAICore.ConvaAICapability?
+  public static func invokeCapability(with input: Swift.String, capabilityName: Swift.String? = nil, capabilityGroup: Swift.String? = nil, context: ConvaAICore.ConvaAIContext? = nil, llmKey: Swift.String? = nil) async throws -> ConvaAICore.ConvaAICapability?
   #endif
-  public static func invokeCapabilityStream(with input: Swift.String, capabilityName: Swift.String? = nil, capabilityGroup: Swift.String? = nil, conversationHistory: Swift.String? = nil, llmKey: Swift.String? = nil) -> _Concurrency.AsyncThrowingStream<ConvaAICore.ConvaAICapability, any Swift.Error>
+  public static func invokeCapabilityStream(with input: Swift.String, capabilityName: Swift.String? = nil, capabilityGroup: Swift.String? = nil, context: ConvaAICore.ConvaAIContext? = nil, llmKey: Swift.String? = nil) -> _Concurrency.AsyncThrowingStream<ConvaAICore.ConvaAICapability, any Swift.Error>
+}
+public struct ConvaAIContext : Swift.Codable {
+  public init(history: Swift.String? = nil, assistantContext: [Swift.String : Any]? = nil, capabilityContext: [Swift.String : Any]? = nil)
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
 extension ConvaAICore.ConvaAIEnvironment : Swift.Equatable {}
 extension ConvaAICore.ConvaAIEnvironment : Swift.Hashable {}

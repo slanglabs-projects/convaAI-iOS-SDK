@@ -6,27 +6,27 @@
 	<dict>
 		<key>Info.plist</key>
 		<data>
-		lS+KakwM4nO0FBl26heEj98PstI=
+		kzrvxvOxPCxdyV0Ckdoa9DLzC4o=
 		</data>
 		<key>Modules/ConvaAICore.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		ITf3syFOhky/NyivHYsTch0ktZM=
+		PfLEjfel+DcpxDDuZ5Q6cMtG45M=
 		</data>
 		<key>Modules/ConvaAICore.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		NguOFGF8vTSw4zXoGdRxo7etqiM=
+		cEt01QpR/a4wlfXVaDWPv+upPT8=
 		</data>
 		<key>Modules/ConvaAICore.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		MzAWnb9WuTJauh2ih2ZZDQ2ZUj8=
+		dvMU7LmCItndKcWvVJOjao54gms=
 		</data>
 		<key>Modules/ConvaAICore.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		NguOFGF8vTSw4zXoGdRxo7etqiM=
+		cEt01QpR/a4wlfXVaDWPv+upPT8=
 		</data>
 		<key>Modules/ConvaAICore.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		snMp+XWCu3kbwiySXLq+K/Xy4h0=
+		AmAtiY65eBsjpqzQBeq1ac5djUU=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -35,35 +35,35 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			qhU3pWayPhsuSc7gxfqylGcnEnfxR7KrIRFwzjOsQZY=
+			Kk346VUAy8lyTia0Owizsw++laHdSssMx2BRusclXrM=
 			</data>
 		</dict>
 		<key>Modules/ConvaAICore.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			8pBTNdKOAoUOP1LwHxg9DHN9s7P+g1EYhTL+ncq1mLA=
+			FHJhdQhVSEckjAUK8tvfyRmck19wjyRW1IdvVPL4vgY=
 			</data>
 		</dict>
 		<key>Modules/ConvaAICore.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			/nerVQ4iNeXDeAweUAydT2QzRhrWry2JtCLFFFtDBzM=
+			+KBmA7pNVuznpmI9nrs0MPZ3qo4dil0kehlKp8Ka3As=
 			</data>
 		</dict>
 		<key>Modules/ConvaAICore.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			8pBTNdKOAoUOP1LwHxg9DHN9s7P+g1EYhTL+ncq1mLA=
+			FHJhdQhVSEckjAUK8tvfyRmck19wjyRW1IdvVPL4vgY=
 			</data>
 		</dict>
 		<key>Modules/ConvaAICore.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			yPxauL9Sbgqgf89wbZt/Rl6OsNWizvhdvmkRXCLfkxs=
+			NHtciZGluoh/Si9jSVDlSzeTtejJLPxuNBqVbyRBG8g=
 			</data>
 		</dict>
 	</dict>
