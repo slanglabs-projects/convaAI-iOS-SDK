@@ -6,11 +6,11 @@
 	<dict>
 		<key>Info.plist</key>
 		<data>
-		8GeLLSXKFuVtPqlp1zLOgvIwv0M=
+		sOacHUr4bPC5bwoch8+WblG23Ig=
 		</data>
 		<key>Modules/ConvaAICore.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		PfLEjfel+DcpxDDuZ5Q6cMtG45M=
+		dDY3MS7XX8kVZSNg13jZznKLGNM=
 		</data>
 		<key>Modules/ConvaAICore.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
@@ -26,7 +26,7 @@
 		</data>
 		<key>Modules/ConvaAICore.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		AmAtiY65eBsjpqzQBeq1ac5djUU=
+		kw/7d3Xoa424N+sR4Afy081/n5k=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -35,7 +35,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Kk346VUAy8lyTia0Owizsw++laHdSssMx2BRusclXrM=
+			PVoD8HkUbE+GBTEJEPsSiQTmkYp0ecPCALHo23G3PfE=
 			</data>
 		</dict>
 		<key>Modules/ConvaAICore.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
@@ -63,7 +63,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			NHtciZGluoh/Si9jSVDlSzeTtejJLPxuNBqVbyRBG8g=
+			Q1eUHcwvXFi6L8L/8KuPfTwtDyTzbagCqaNEuijt+UI=
 			</data>
 		</dict>
 	</dict>
