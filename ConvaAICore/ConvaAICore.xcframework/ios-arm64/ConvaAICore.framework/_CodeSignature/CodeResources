@@ -6,15 +6,15 @@
 	<dict>
 		<key>Info.plist</key>
 		<data>
-		sOacHUr4bPC5bwoch8+WblG23Ig=
+		IhUk8iO8ONnHrkDQTTHFlfjRoR0=
 		</data>
 		<key>Modules/ConvaAICore.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		dDY3MS7XX8kVZSNg13jZznKLGNM=
+		KznQxxnahEH3nvq/x90Z03peE4w=
 		</data>
 		<key>Modules/ConvaAICore.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		cEt01QpR/a4wlfXVaDWPv+upPT8=
+		x8aBsQBG81MYgv1DJyBr/t5uAI0=
 		</data>
 		<key>Modules/ConvaAICore.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
@@ -22,11 +22,11 @@
 		</data>
 		<key>Modules/ConvaAICore.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		cEt01QpR/a4wlfXVaDWPv+upPT8=
+		x8aBsQBG81MYgv1DJyBr/t5uAI0=
 		</data>
 		<key>Modules/ConvaAICore.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		kw/7d3Xoa424N+sR4Afy081/n5k=
+		5xLJGzgJLSPfuhoH1VbngfUGe50=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -35,14 +35,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			PVoD8HkUbE+GBTEJEPsSiQTmkYp0ecPCALHo23G3PfE=
+			P97v+v1/3JK+LdARn5rMPPVMeJMMG9Hb3sckQ5udDqc=
 			</data>
 		</dict>
 		<key>Modules/ConvaAICore.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			FHJhdQhVSEckjAUK8tvfyRmck19wjyRW1IdvVPL4vgY=
+			hW0Q9Zq7hHQNPjLex2awflV8Eb55RL7HaZykL0kaLAc=
 			</data>
 		</dict>
 		<key>Modules/ConvaAICore.swiftmodule/arm64-apple-ios.swiftdoc</key>
@@ -56,14 +56,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			FHJhdQhVSEckjAUK8tvfyRmck19wjyRW1IdvVPL4vgY=
+			hW0Q9Zq7hHQNPjLex2awflV8Eb55RL7HaZykL0kaLAc=
 			</data>
 		</dict>
 		<key>Modules/ConvaAICore.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Q1eUHcwvXFi6L8L/8KuPfTwtDyTzbagCqaNEuijt+UI=
+			fsL7lTYElJoX2kIEIW4XleF/ZYR5LY+olmvOkxSUK94=
 			</data>
 		</dict>
 	</dict>

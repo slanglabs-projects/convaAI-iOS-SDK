@@ -6,15 +6,15 @@
 	<dict>
 		<key>Info.plist</key>
 		<data>
-		yUKcKl/4cftOMQHBMjvIJ2hefU0=
+		Iw70Zp+i+6ZObI2MSxrNQ40Vj6E=
 		</data>
 		<key>Modules/ConvaAICore.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		dDY3MS7XX8kVZSNg13jZznKLGNM=
+		KznQxxnahEH3nvq/x90Z03peE4w=
 		</data>
 		<key>Modules/ConvaAICore.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		xdQjbeCy1FW+z/c8cRYaQd8OZnU=
+		MEpN217i5BP4urrIdJ7UB7/L12Y=
 		</data>
 		<key>Modules/ConvaAICore.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -22,19 +22,19 @@
 		</data>
 		<key>Modules/ConvaAICore.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		xdQjbeCy1FW+z/c8cRYaQd8OZnU=
+		MEpN217i5BP4urrIdJ7UB7/L12Y=
 		</data>
 		<key>Modules/ConvaAICore.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		QBxc3xTA6rqnZR7hcEU9bZRc5gI=
+		090Re4x3fDKd2uP+apSbt165/i4=
 		</data>
 		<key>Modules/ConvaAICore.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		dDY3MS7XX8kVZSNg13jZznKLGNM=
+		KznQxxnahEH3nvq/x90Z03peE4w=
 		</data>
 		<key>Modules/ConvaAICore.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		j+Eh1Sy6Se0KZRM/ISgw1CTM9xo=
+		YW0+vYpYcePVHZLhHBwNnCtBSow=
 		</data>
 		<key>Modules/ConvaAICore.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
@@ -42,11 +42,11 @@
 		</data>
 		<key>Modules/ConvaAICore.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		j+Eh1Sy6Se0KZRM/ISgw1CTM9xo=
+		YW0+vYpYcePVHZLhHBwNnCtBSow=
 		</data>
 		<key>Modules/ConvaAICore.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		1Io6m0AhZE3vmApQokqq1aBy8Qg=
+		Wlo6EleKPzynP2+AH/EIx6b/qEg=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -55,14 +55,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			PVoD8HkUbE+GBTEJEPsSiQTmkYp0ecPCALHo23G3PfE=
+			P97v+v1/3JK+LdARn5rMPPVMeJMMG9Hb3sckQ5udDqc=
 			</data>
 		</dict>
 		<key>Modules/ConvaAICore.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			UZniDtj08I2QgW1PljcL3p0K48bHUNrLSzCPMRYTZj0=
+			+Z/iTAFw7A/ycaDbguLLx7HzyHL3eC+EAAD6HCOEVnM=
 			</data>
 		</dict>
 		<key>Modules/ConvaAICore.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
@@ -76,28 +76,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			UZniDtj08I2QgW1PljcL3p0K48bHUNrLSzCPMRYTZj0=
+			+Z/iTAFw7A/ycaDbguLLx7HzyHL3eC+EAAD6HCOEVnM=
 			</data>
 		</dict>
 		<key>Modules/ConvaAICore.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			RkadRew+mWrDgxFxLfKCfEuC+NL30TT01r3IbLj+bEQ=
+			r25IN8/UrFQ21HCbP4Zl/BDb0i0810hzStDAJyeyvTw=
 			</data>
 		</dict>
 		<key>Modules/ConvaAICore.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			PVoD8HkUbE+GBTEJEPsSiQTmkYp0ecPCALHo23G3PfE=
+			P97v+v1/3JK+LdARn5rMPPVMeJMMG9Hb3sckQ5udDqc=
 			</data>
 		</dict>
 		<key>Modules/ConvaAICore.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			l/p5zkTnSg2WQtC5gTlwep+IyTwkFxygSAPP4ksZswM=
+			bUVO9XPaMwHsJJrUt1NJq/5qPyaL5KLciohNjSl59NE=
 			</data>
 		</dict>
 		<key>Modules/ConvaAICore.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
@@ -111,14 +111,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			l/p5zkTnSg2WQtC5gTlwep+IyTwkFxygSAPP4ksZswM=
+			bUVO9XPaMwHsJJrUt1NJq/5qPyaL5KLciohNjSl59NE=
 			</data>
 		</dict>
 		<key>Modules/ConvaAICore.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Mh6TPUOylGA3sdfk6IHdk6bqtOJBxKdaWoi9HjUG96Q=
+			xjChOHRXRmY8jbXP+n33UAcu0jZwhnBLpdCchjpSkCs=
 			</data>
 		</dict>
 	</dict>

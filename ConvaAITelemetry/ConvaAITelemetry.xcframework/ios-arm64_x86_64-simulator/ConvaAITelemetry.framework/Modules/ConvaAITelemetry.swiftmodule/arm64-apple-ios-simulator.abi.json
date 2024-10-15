@@ -1,0 +1,1444 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ConvaAITelemetry",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ConvaAITelemetry",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ConvaAITelemetry",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SLog",
+        "printedName": "SLog",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "error",
+            "printedName": "error(_:message:sdkType:sdkVersion:error:tag:metadata:_:_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(any Swift.Error)?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Error",
+                    "printedName": "any Swift.Error",
+                    "usr": "s:s5ErrorP"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Swift.String]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "hasDefaultArg": true,
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16ConvaAITelemetry4SLogC5error_7message7sdkType0F7VersionAD3tag8metadata___ySS_S3Ss5Error_pSgSSSgSDyS2SGSgS2SSitFZ",
+            "mangledName": "$s16ConvaAITelemetry4SLogC5error_7message7sdkType0F7VersionAD3tag8metadata___ySS_S3Ss5Error_pSgSSSgSDyS2SGSgS2SSitFZ",
+            "moduleName": "ConvaAITelemetry",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "info",
+            "printedName": "info(_:message:sdkType:sdkVersion:error:tag:metadata:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(any Swift.Error)?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Error",
+                    "printedName": "any Swift.Error",
+                    "usr": "s:s5ErrorP"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Swift.String]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16ConvaAITelemetry4SLogC4info_7message7sdkType0F7Version5error3tag8metadataySS_S3Ss5Error_pSgSSSgSDyS2SGSgtFZ",
+            "mangledName": "$s16ConvaAITelemetry4SLogC4info_7message7sdkType0F7Version5error3tag8metadataySS_S3Ss5Error_pSgSSSgSDyS2SGSgtFZ",
+            "moduleName": "ConvaAITelemetry",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "debug",
+            "printedName": "debug(_:message:sdkType:sdkVersion:error:tag:metadata:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(any Swift.Error)?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Error",
+                    "printedName": "any Swift.Error",
+                    "usr": "s:s5ErrorP"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Swift.String]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16ConvaAITelemetry4SLogC5debug_7message7sdkType0F7Version5error3tag8metadataySS_S3Ss5Error_pSgSSSgSDyS2SGSgtFZ",
+            "mangledName": "$s16ConvaAITelemetry4SLogC5debug_7message7sdkType0F7Version5error3tag8metadataySS_S3Ss5Error_pSgSSSgSDyS2SGSgtFZ",
+            "moduleName": "ConvaAITelemetry",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "initialize",
+            "printedName": "initialize(loggerConfig:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "LoggerConfiguration",
+                "printedName": "ConvaAITelemetry.LoggerConfiguration",
+                "usr": "s:16ConvaAITelemetry19LoggerConfigurationV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16ConvaAITelemetry4SLogC10initialize12loggerConfigyAA19LoggerConfigurationV_tFZ",
+            "mangledName": "$s16ConvaAITelemetry4SLogC10initialize12loggerConfigyAA19LoggerConfigurationV_tFZ",
+            "moduleName": "ConvaAITelemetry",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:16ConvaAITelemetry4SLogC",
+        "mangledName": "$s16ConvaAITelemetry4SLogC",
+        "moduleName": "ConvaAITelemetry",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "hasMissingDesignatedInitializers": true
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ConvaAITelemetry",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "ConvaAITelemetry"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ConvaAITelemetry",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "os.log",
+        "printedName": "os.log",
+        "declKind": "Import",
+        "moduleName": "ConvaAITelemetry"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ConvaAITelemetry",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ConvaAITelemetry",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ConvaAITelemetry",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ConvaAITelemetry",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ConvaAITelemetry",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ConvaAITelemetry",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ConvaAITelemetry",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ConvaAITelemetry",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ConvaAITelemetry",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ConvaAITelemetry",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "LoggerConfiguration",
+        "printedName": "LoggerConfiguration",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(apiKey:assistantId:assistantVersion:assistantEnv:deviceId:configs:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "LoggerConfiguration",
+                "printedName": "ConvaAITelemetry.LoggerConfiguration",
+                "usr": "s:16ConvaAITelemetry19LoggerConfigurationV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:16ConvaAITelemetry19LoggerConfigurationV6apiKey11assistantId0G7Version0G3Env06deviceH07configsACSS_S4SSDySSypGtcfc",
+            "mangledName": "$s16ConvaAITelemetry19LoggerConfigurationV6apiKey11assistantId0G7Version0G3Env06deviceH07configsACSS_S4SSDySSypGtcfc",
+            "moduleName": "ConvaAITelemetry",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:16ConvaAITelemetry19LoggerConfigurationV",
+        "mangledName": "$s16ConvaAITelemetry19LoggerConfigurationV",
+        "moduleName": "ConvaAITelemetry",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ConvaAITelemetry",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ConvaAITelemetry",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ConvaAITelemetry",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ConvaAITelemetry",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ConvaAITelemetry",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "ConvaAITelemetry"
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/visvos07\/Github\/phabricator\/polyglot\/client\/slang-ios-conva-sdk\/ConvaAITelemetry\/Sources\/Internal\/Loggers\/SystemLogger.swift",
+      "kind": "StringLiteral",
+      "offset": 347,
+      "length": 16,
+      "value": "\"SlangClientLib\""
+    },
+    {
+      "filePath": "\/Users\/visvos07\/Github\/phabricator\/polyglot\/client\/slang-ios-conva-sdk\/ConvaAITelemetry\/Sources\/Internal\/LoggerImpl.swift",
+      "kind": "StringLiteral",
+      "offset": 298,
+      "length": 15,
+      "value": "\"telemetry_log\""
+    },
+    {
+      "filePath": "\/Users\/visvos07\/Github\/phabricator\/polyglot\/client\/slang-ios-conva-sdk\/ConvaAITelemetry\/Sources\/Internal\/LoggerImpl.swift",
+      "kind": "Array",
+      "offset": 421,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/visvos07\/Github\/phabricator\/polyglot\/client\/slang-ios-conva-sdk\/ConvaAITelemetry\/Sources\/Internal\/TelemetryLoggerData.swift",
+      "kind": "StringLiteral",
+      "offset": 892,
+      "length": 14,
+      "value": "\"app_pkg_name\""
+    },
+    {
+      "filePath": "\/Users\/visvos07\/Github\/phabricator\/polyglot\/client\/slang-ios-conva-sdk\/ConvaAITelemetry\/Sources\/Internal\/TelemetryLoggerData.swift",
+      "kind": "StringLiteral",
+      "offset": 933,
+      "length": 13,
+      "value": "\"app_version\""
+    },
+    {
+      "filePath": "\/Users\/visvos07\/Github\/phabricator\/polyglot\/client\/slang-ios-conva-sdk\/ConvaAITelemetry\/Sources\/Internal\/TelemetryLoggerData.swift",
+      "kind": "StringLiteral",
+      "offset": 977,
+      "length": 18,
+      "value": "\"app_build_number\""
+    },
+    {
+      "filePath": "\/Users\/visvos07\/Github\/phabricator\/polyglot\/client\/slang-ios-conva-sdk\/ConvaAITelemetry\/Sources\/Internal\/TelemetryLoggerData.swift",
+      "kind": "StringLiteral",
+      "offset": 1017,
+      "length": 7,
+      "value": "\"brand\""
+    },
+    {
+      "filePath": "\/Users\/visvos07\/Github\/phabricator\/polyglot\/client\/slang-ios-conva-sdk\/ConvaAITelemetry\/Sources\/Internal\/TelemetryLoggerData.swift",
+      "kind": "StringLiteral",
+      "offset": 1053,
+      "length": 14,
+      "value": "\"manufacturer\""
+    },
+    {
+      "filePath": "\/Users\/visvos07\/Github\/phabricator\/polyglot\/client\/slang-ios-conva-sdk\/ConvaAITelemetry\/Sources\/Internal\/TelemetryLoggerData.swift",
+      "kind": "StringLiteral",
+      "offset": 1089,
+      "length": 7,
+      "value": "\"model\""
+    },
+    {
+      "filePath": "\/Users\/visvos07\/Github\/phabricator\/polyglot\/client\/slang-ios-conva-sdk\/ConvaAITelemetry\/Sources\/Internal\/TelemetryLoggerData.swift",
+      "kind": "StringLiteral",
+      "offset": 1119,
+      "length": 9,
+      "value": "\"os_type\""
+    },
+    {
+      "filePath": "\/Users\/visvos07\/Github\/phabricator\/polyglot\/client\/slang-ios-conva-sdk\/ConvaAITelemetry\/Sources\/Internal\/TelemetryLoggerData.swift",
+      "kind": "StringLiteral",
+      "offset": 1154,
+      "length": 12,
+      "value": "\"os_version\""
+    },
+    {
+      "filePath": "\/Users\/visvos07\/Github\/phabricator\/polyglot\/client\/slang-ios-conva-sdk\/ConvaAITelemetry\/Sources\/Internal\/TelemetryLoggerData.swift",
+      "kind": "StringLiteral",
+      "offset": 1194,
+      "length": 14,
+      "value": "\"assistant_id\""
+    },
+    {
+      "filePath": "\/Users\/visvos07\/Github\/phabricator\/polyglot\/client\/slang-ios-conva-sdk\/ConvaAITelemetry\/Sources\/Internal\/TelemetryLoggerData.swift",
+      "kind": "StringLiteral",
+      "offset": 1241,
+      "length": 19,
+      "value": "\"assistant_version\""
+    },
+    {
+      "filePath": "\/Users\/visvos07\/Github\/phabricator\/polyglot\/client\/slang-ios-conva-sdk\/ConvaAITelemetry\/Sources\/Internal\/TelemetryLoggerData.swift",
+      "kind": "StringLiteral",
+      "offset": 1285,
+      "length": 11,
+      "value": "\"device_id\""
+    },
+    {
+      "filePath": "\/Users\/visvos07\/Github\/phabricator\/polyglot\/client\/slang-ios-conva-sdk\/ConvaAITelemetry\/Sources\/Internal\/TelemetryLoggerData.swift",
+      "kind": "StringLiteral",
+      "offset": 1334,
+      "length": 25,
+      "value": "\"minimum_telemetry_level\""
+    },
+    {
+      "filePath": "\/Users\/visvos07\/Github\/phabricator\/polyglot\/client\/slang-ios-conva-sdk\/ConvaAITelemetry\/Sources\/Internal\/TelemetryLoggerData.swift",
+      "kind": "StringLiteral",
+      "offset": 1385,
+      "length": 12,
+      "value": "\"batch_size\""
+    },
+    {
+      "filePath": "\/Users\/visvos07\/Github\/phabricator\/polyglot\/client\/slang-ios-conva-sdk\/ConvaAITelemetry\/Sources\/Internal\/TelemetryLoggerData.swift",
+      "kind": "StringLiteral",
+      "offset": 892,
+      "length": 14,
+      "value": "\"app_pkg_name\""
+    },
+    {
+      "filePath": "\/Users\/visvos07\/Github\/phabricator\/polyglot\/client\/slang-ios-conva-sdk\/ConvaAITelemetry\/Sources\/Internal\/TelemetryLoggerData.swift",
+      "kind": "StringLiteral",
+      "offset": 933,
+      "length": 13,
+      "value": "\"app_version\""
+    },
+    {
+      "filePath": "\/Users\/visvos07\/Github\/phabricator\/polyglot\/client\/slang-ios-conva-sdk\/ConvaAITelemetry\/Sources\/Internal\/TelemetryLoggerData.swift",
+      "kind": "StringLiteral",
+      "offset": 977,
+      "length": 18,
+      "value": "\"app_build_number\""
+    },
+    {
+      "filePath": "\/Users\/visvos07\/Github\/phabricator\/polyglot\/client\/slang-ios-conva-sdk\/ConvaAITelemetry\/Sources\/Internal\/TelemetryLoggerData.swift",
+      "kind": "StringLiteral",
+      "offset": 1017,
+      "length": 7,
+      "value": "\"brand\""
+    },
+    {
+      "filePath": "\/Users\/visvos07\/Github\/phabricator\/polyglot\/client\/slang-ios-conva-sdk\/ConvaAITelemetry\/Sources\/Internal\/TelemetryLoggerData.swift",
+      "kind": "StringLiteral",
+      "offset": 1053,
+      "length": 14,
+      "value": "\"manufacturer\""
+    },
+    {
+      "filePath": "\/Users\/visvos07\/Github\/phabricator\/polyglot\/client\/slang-ios-conva-sdk\/ConvaAITelemetry\/Sources\/Internal\/TelemetryLoggerData.swift",
+      "kind": "StringLiteral",
+      "offset": 1089,
+      "length": 7,
+      "value": "\"model\""
+    },
+    {
+      "filePath": "\/Users\/visvos07\/Github\/phabricator\/polyglot\/client\/slang-ios-conva-sdk\/ConvaAITelemetry\/Sources\/Internal\/TelemetryLoggerData.swift",
+      "kind": "StringLiteral",
+      "offset": 1119,
+      "length": 9,
+      "value": "\"os_type\""
+    },
+    {
+      "filePath": "\/Users\/visvos07\/Github\/phabricator\/polyglot\/client\/slang-ios-conva-sdk\/ConvaAITelemetry\/Sources\/Internal\/TelemetryLoggerData.swift",
+      "kind": "StringLiteral",
+      "offset": 1154,
+      "length": 12,
+      "value": "\"os_version\""
+    },
+    {
+      "filePath": "\/Users\/visvos07\/Github\/phabricator\/polyglot\/client\/slang-ios-conva-sdk\/ConvaAITelemetry\/Sources\/Internal\/TelemetryLoggerData.swift",
+      "kind": "StringLiteral",
+      "offset": 1194,
+      "length": 14,
+      "value": "\"assistant_id\""
+    },
+    {
+      "filePath": "\/Users\/visvos07\/Github\/phabricator\/polyglot\/client\/slang-ios-conva-sdk\/ConvaAITelemetry\/Sources\/Internal\/TelemetryLoggerData.swift",
+      "kind": "StringLiteral",
+      "offset": 1241,
+      "length": 19,
+      "value": "\"assistant_version\""
+    },
+    {
+      "filePath": "\/Users\/visvos07\/Github\/phabricator\/polyglot\/client\/slang-ios-conva-sdk\/ConvaAITelemetry\/Sources\/Internal\/TelemetryLoggerData.swift",
+      "kind": "StringLiteral",
+      "offset": 1285,
+      "length": 11,
+      "value": "\"device_id\""
+    },
+    {
+      "filePath": "\/Users\/visvos07\/Github\/phabricator\/polyglot\/client\/slang-ios-conva-sdk\/ConvaAITelemetry\/Sources\/Internal\/TelemetryLoggerData.swift",
+      "kind": "StringLiteral",
+      "offset": 1334,
+      "length": 25,
+      "value": "\"minimum_telemetry_level\""
+    },
+    {
+      "filePath": "\/Users\/visvos07\/Github\/phabricator\/polyglot\/client\/slang-ios-conva-sdk\/ConvaAITelemetry\/Sources\/Internal\/TelemetryLoggerData.swift",
+      "kind": "StringLiteral",
+      "offset": 1385,
+      "length": 12,
+      "value": "\"batch_size\""
+    },
+    {
+      "filePath": "\/Users\/visvos07\/Github\/phabricator\/polyglot\/client\/slang-ios-conva-sdk\/ConvaAITelemetry\/Sources\/Internal\/Loggers\/TelemetryLevel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 399,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/visvos07\/Github\/phabricator\/polyglot\/client\/slang-ios-conva-sdk\/ConvaAITelemetry\/Sources\/Internal\/Loggers\/TelemetryLevel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 417,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/visvos07\/Github\/phabricator\/polyglot\/client\/slang-ios-conva-sdk\/ConvaAITelemetry\/Sources\/Internal\/Loggers\/TelemetryLevel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 438,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/visvos07\/Github\/phabricator\/polyglot\/client\/slang-ios-conva-sdk\/ConvaAITelemetry\/Sources\/Internal\/Loggers\/TelemetryLevel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 457,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/visvos07\/Github\/phabricator\/polyglot\/client\/slang-ios-conva-sdk\/ConvaAITelemetry\/Sources\/Internal\/Loggers\/TelemetryLevel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 399,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/visvos07\/Github\/phabricator\/polyglot\/client\/slang-ios-conva-sdk\/ConvaAITelemetry\/Sources\/Internal\/Loggers\/TelemetryLevel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 417,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/visvos07\/Github\/phabricator\/polyglot\/client\/slang-ios-conva-sdk\/ConvaAITelemetry\/Sources\/Internal\/Loggers\/TelemetryLevel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 438,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/visvos07\/Github\/phabricator\/polyglot\/client\/slang-ios-conva-sdk\/ConvaAITelemetry\/Sources\/Internal\/Loggers\/TelemetryLevel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 457,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/visvos07\/Github\/phabricator\/polyglot\/client\/slang-ios-conva-sdk\/ConvaAITelemetry\/Sources\/Internal\/Loggers\/TelemetryLevel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 399,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/visvos07\/Github\/phabricator\/polyglot\/client\/slang-ios-conva-sdk\/ConvaAITelemetry\/Sources\/Internal\/Loggers\/TelemetryLevel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 417,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/visvos07\/Github\/phabricator\/polyglot\/client\/slang-ios-conva-sdk\/ConvaAITelemetry\/Sources\/Internal\/Loggers\/TelemetryLevel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 438,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/visvos07\/Github\/phabricator\/polyglot\/client\/slang-ios-conva-sdk\/ConvaAITelemetry\/Sources\/Internal\/Loggers\/TelemetryLevel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 457,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/visvos07\/Github\/phabricator\/polyglot\/client\/slang-ios-conva-sdk\/ConvaAITelemetry\/Sources\/Internal\/IO\/NetworkRequestProcessor.swift",
+      "kind": "StringLiteral",
+      "offset": 3294,
+      "length": 12,
+      "value": "\"User-Agent\""
+    },
+    {
+      "filePath": "\/Users\/visvos07\/Github\/phabricator\/polyglot\/client\/slang-ios-conva-sdk\/ConvaAITelemetry\/Sources\/Internal\/IO\/NetworkRequestProcessor.swift",
+      "kind": "StringLiteral",
+      "offset": 3340,
+      "length": 14,
+      "value": "\"Content-Type\""
+    },
+    {
+      "filePath": "\/Users\/visvos07\/Github\/phabricator\/polyglot\/client\/slang-ios-conva-sdk\/ConvaAITelemetry\/Sources\/Internal\/IO\/NetworkRequestProcessor.swift",
+      "kind": "StringLiteral",
+      "offset": 3390,
+      "length": 15,
+      "value": "\"Authorization\""
+    },
+    {
+      "filePath": "\/Users\/visvos07\/Github\/phabricator\/polyglot\/client\/slang-ios-conva-sdk\/ConvaAITelemetry\/Sources\/Internal\/IO\/NetworkRequestProcessor.swift",
+      "kind": "StringLiteral",
+      "offset": 3434,
+      "length": 8,
+      "value": "\"Accept\""
+    },
+    {
+      "filePath": "\/Users\/visvos07\/Github\/phabricator\/polyglot\/client\/slang-ios-conva-sdk\/ConvaAITelemetry\/Sources\/Internal\/Loggers\/telemetry\/TelemetryEventCache.swift",
+      "kind": "BooleanLiteral",
+      "offset": 597,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/visvos07\/Github\/phabricator\/polyglot\/client\/slang-ios-conva-sdk\/ConvaAITelemetry\/Sources\/Internal\/Loggers\/telemetry\/TelemetryEventCache.swift",
+      "kind": "Array",
+      "offset": 640,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/visvos07\/Github\/phabricator\/polyglot\/client\/slang-ios-conva-sdk\/ConvaAITelemetry\/Sources\/Internal\/IO\/TelemetryRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 1063,
+      "length": 14,
+      "value": "\"assistant_id\""
+    },
+    {
+      "filePath": "\/Users\/visvos07\/Github\/phabricator\/polyglot\/client\/slang-ios-conva-sdk\/ConvaAITelemetry\/Sources\/Internal\/IO\/TelemetryRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 1110,
+      "length": 19,
+      "value": "\"assistant_version\""
+    },
+    {
+      "filePath": "\/Users\/visvos07\/Github\/phabricator\/polyglot\/client\/slang-ios-conva-sdk\/ConvaAITelemetry\/Sources\/Internal\/IO\/TelemetryRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 1158,
+      "length": 15,
+      "value": "\"assistant_env\""
+    },
+    {
+      "filePath": "\/Users\/visvos07\/Github\/phabricator\/polyglot\/client\/slang-ios-conva-sdk\/ConvaAITelemetry\/Sources\/Internal\/IO\/TelemetryRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 1198,
+      "length": 11,
+      "value": "\"device_id\""
+    },
+    {
+      "filePath": "\/Users\/visvos07\/Github\/phabricator\/polyglot\/client\/slang-ios-conva-sdk\/ConvaAITelemetry\/Sources\/Internal\/IO\/TelemetryRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 1235,
+      "length": 12,
+      "value": "\"request_id\""
+    },
+    {
+      "filePath": "\/Users\/visvos07\/Github\/phabricator\/polyglot\/client\/slang-ios-conva-sdk\/ConvaAITelemetry\/Sources\/Internal\/IO\/TelemetryRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 1270,
+      "length": 8,
+      "value": "\"events\""
+    },
+    {
+      "filePath": "\/Users\/visvos07\/Github\/phabricator\/polyglot\/client\/slang-ios-conva-sdk\/ConvaAITelemetry\/Sources\/Internal\/IO\/TelemetryRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 1063,
+      "length": 14,
+      "value": "\"assistant_id\""
+    },
+    {
+      "filePath": "\/Users\/visvos07\/Github\/phabricator\/polyglot\/client\/slang-ios-conva-sdk\/ConvaAITelemetry\/Sources\/Internal\/IO\/TelemetryRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 1110,
+      "length": 19,
+      "value": "\"assistant_version\""
+    },
+    {
+      "filePath": "\/Users\/visvos07\/Github\/phabricator\/polyglot\/client\/slang-ios-conva-sdk\/ConvaAITelemetry\/Sources\/Internal\/IO\/TelemetryRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 1158,
+      "length": 15,
+      "value": "\"assistant_env\""
+    },
+    {
+      "filePath": "\/Users\/visvos07\/Github\/phabricator\/polyglot\/client\/slang-ios-conva-sdk\/ConvaAITelemetry\/Sources\/Internal\/IO\/TelemetryRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 1198,
+      "length": 11,
+      "value": "\"device_id\""
+    },
+    {
+      "filePath": "\/Users\/visvos07\/Github\/phabricator\/polyglot\/client\/slang-ios-conva-sdk\/ConvaAITelemetry\/Sources\/Internal\/IO\/TelemetryRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 1235,
+      "length": 12,
+      "value": "\"request_id\""
+    },
+    {
+      "filePath": "\/Users\/visvos07\/Github\/phabricator\/polyglot\/client\/slang-ios-conva-sdk\/ConvaAITelemetry\/Sources\/Internal\/IO\/TelemetryRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 1270,
+      "length": 8,
+      "value": "\"events\""
+    },
+    {
+      "filePath": "\/Users\/visvos07\/Github\/phabricator\/polyglot\/client\/slang-ios-conva-sdk\/ConvaAITelemetry\/Sources\/Internal\/IO\/TelemetryRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 2500,
+      "length": 6,
+      "value": "\"INFO\""
+    },
+    {
+      "filePath": "\/Users\/visvos07\/Github\/phabricator\/polyglot\/client\/slang-ios-conva-sdk\/ConvaAITelemetry\/Sources\/Internal\/IO\/TelemetryRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 2526,
+      "length": 9,
+      "value": "\"WARNING\""
+    },
+    {
+      "filePath": "\/Users\/visvos07\/Github\/phabricator\/polyglot\/client\/slang-ios-conva-sdk\/ConvaAITelemetry\/Sources\/Internal\/IO\/TelemetryRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 2553,
+      "length": 7,
+      "value": "\"DEBUG\""
+    },
+    {
+      "filePath": "\/Users\/visvos07\/Github\/phabricator\/polyglot\/client\/slang-ios-conva-sdk\/ConvaAITelemetry\/Sources\/Internal\/IO\/TelemetryRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 2578,
+      "length": 7,
+      "value": "\"ERROR\""
+    },
+    {
+      "filePath": "\/Users\/visvos07\/Github\/phabricator\/polyglot\/client\/slang-ios-conva-sdk\/ConvaAITelemetry\/Sources\/Internal\/IO\/TelemetryRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 2500,
+      "length": 6,
+      "value": "\"INFO\""
+    },
+    {
+      "filePath": "\/Users\/visvos07\/Github\/phabricator\/polyglot\/client\/slang-ios-conva-sdk\/ConvaAITelemetry\/Sources\/Internal\/IO\/TelemetryRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 2526,
+      "length": 9,
+      "value": "\"WARNING\""
+    },
+    {
+      "filePath": "\/Users\/visvos07\/Github\/phabricator\/polyglot\/client\/slang-ios-conva-sdk\/ConvaAITelemetry\/Sources\/Internal\/IO\/TelemetryRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 2553,
+      "length": 7,
+      "value": "\"DEBUG\""
+    },
+    {
+      "filePath": "\/Users\/visvos07\/Github\/phabricator\/polyglot\/client\/slang-ios-conva-sdk\/ConvaAITelemetry\/Sources\/Internal\/IO\/TelemetryRequest.swift",
+      "kind": "StringLiteral",
+      "offset": 2578,
+      "length": 7,
+      "value": "\"ERROR\""
+    },
+    {
+      "filePath": "\/Users\/visvos07\/Github\/phabricator\/polyglot\/client\/slang-ios-conva-sdk\/ConvaAITelemetry\/Sources\/LoggerConfiguration.swift",
+      "kind": "Dictionary",
+      "offset": 452,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/visvos07\/Github\/phabricator\/polyglot\/client\/slang-ios-conva-sdk\/ConvaAITelemetry\/Sources\/Internal\/Loggers\/TelemetryEventData.swift",
+      "kind": "StringLiteral",
+      "offset": 721,
+      "length": 16,
+      "value": "\"telemetry_data\""
+    },
+    {
+      "filePath": "\/Users\/visvos07\/Github\/phabricator\/polyglot\/client\/slang-ios-conva-sdk\/ConvaAITelemetry\/Sources\/Internal\/Loggers\/TelemetryEventData.swift",
+      "kind": "StringLiteral",
+      "offset": 767,
+      "length": 16,
+      "value": "\"severity_level\""
+    },
+    {
+      "filePath": "\/Users\/visvos07\/Github\/phabricator\/polyglot\/client\/slang-ios-conva-sdk\/ConvaAITelemetry\/Sources\/Internal\/Loggers\/TelemetryEventData.swift",
+      "kind": "StringLiteral",
+      "offset": 811,
+      "length": 8,
+      "value": "\"source\""
+    },
+    {
+      "filePath": "\/Users\/visvos07\/Github\/phabricator\/polyglot\/client\/slang-ios-conva-sdk\/ConvaAITelemetry\/Sources\/Internal\/Loggers\/TelemetryEventData.swift",
+      "kind": "StringLiteral",
+      "offset": 849,
+      "length": 13,
+      "value": "\"description\""
+    },
+    {
+      "filePath": "\/Users\/visvos07\/Github\/phabricator\/polyglot\/client\/slang-ios-conva-sdk\/ConvaAITelemetry\/Sources\/Internal\/Loggers\/TelemetryEventData.swift",
+      "kind": "StringLiteral",
+      "offset": 888,
+      "length": 11,
+      "value": "\"traceback\""
+    },
+    {
+      "filePath": "\/Users\/visvos07\/Github\/phabricator\/polyglot\/client\/slang-ios-conva-sdk\/ConvaAITelemetry\/Sources\/Internal\/Loggers\/TelemetryEventData.swift",
+      "kind": "StringLiteral",
+      "offset": 924,
+      "length": 10,
+      "value": "\"metadata\""
+    },
+    {
+      "filePath": "\/Users\/visvos07\/Github\/phabricator\/polyglot\/client\/slang-ios-conva-sdk\/ConvaAITelemetry\/Sources\/Internal\/Loggers\/TelemetryEventData.swift",
+      "kind": "StringLiteral",
+      "offset": 958,
+      "length": 10,
+      "value": "\"sdk_type\""
+    },
+    {
+      "filePath": "\/Users\/visvos07\/Github\/phabricator\/polyglot\/client\/slang-ios-conva-sdk\/ConvaAITelemetry\/Sources\/Internal\/Loggers\/TelemetryEventData.swift",
+      "kind": "StringLiteral",
+      "offset": 995,
+      "length": 13,
+      "value": "\"sdk_version\""
+    },
+    {
+      "filePath": "\/Users\/visvos07\/Github\/phabricator\/polyglot\/client\/slang-ios-conva-sdk\/ConvaAITelemetry\/Sources\/Internal\/Loggers\/TelemetryEventData.swift",
+      "kind": "StringLiteral",
+      "offset": 1030,
+      "length": 10,
+      "value": "\"epoch_ms\""
+    },
+    {
+      "filePath": "\/Users\/visvos07\/Github\/phabricator\/polyglot\/client\/slang-ios-conva-sdk\/ConvaAITelemetry\/Sources\/Internal\/Loggers\/TelemetryEventData.swift",
+      "kind": "StringLiteral",
+      "offset": 1063,
+      "length": 8,
+      "value": "\"status\""
+    },
+    {
+      "filePath": "\/Users\/visvos07\/Github\/phabricator\/polyglot\/client\/slang-ios-conva-sdk\/ConvaAITelemetry\/Sources\/Internal\/Loggers\/TelemetryEventData.swift",
+      "kind": "StringLiteral",
+      "offset": 721,
+      "length": 16,
+      "value": "\"telemetry_data\""
+    },
+    {
+      "filePath": "\/Users\/visvos07\/Github\/phabricator\/polyglot\/client\/slang-ios-conva-sdk\/ConvaAITelemetry\/Sources\/Internal\/Loggers\/TelemetryEventData.swift",
+      "kind": "StringLiteral",
+      "offset": 767,
+      "length": 16,
+      "value": "\"severity_level\""
+    },
+    {
+      "filePath": "\/Users\/visvos07\/Github\/phabricator\/polyglot\/client\/slang-ios-conva-sdk\/ConvaAITelemetry\/Sources\/Internal\/Loggers\/TelemetryEventData.swift",
+      "kind": "StringLiteral",
+      "offset": 811,
+      "length": 8,
+      "value": "\"source\""
+    },
+    {
+      "filePath": "\/Users\/visvos07\/Github\/phabricator\/polyglot\/client\/slang-ios-conva-sdk\/ConvaAITelemetry\/Sources\/Internal\/Loggers\/TelemetryEventData.swift",
+      "kind": "StringLiteral",
+      "offset": 849,
+      "length": 13,
+      "value": "\"description\""
+    },
+    {
+      "filePath": "\/Users\/visvos07\/Github\/phabricator\/polyglot\/client\/slang-ios-conva-sdk\/ConvaAITelemetry\/Sources\/Internal\/Loggers\/TelemetryEventData.swift",
+      "kind": "StringLiteral",
+      "offset": 888,
+      "length": 11,
+      "value": "\"traceback\""
+    },
+    {
+      "filePath": "\/Users\/visvos07\/Github\/phabricator\/polyglot\/client\/slang-ios-conva-sdk\/ConvaAITelemetry\/Sources\/Internal\/Loggers\/TelemetryEventData.swift",
+      "kind": "StringLiteral",
+      "offset": 924,
+      "length": 10,
+      "value": "\"metadata\""
+    },
+    {
+      "filePath": "\/Users\/visvos07\/Github\/phabricator\/polyglot\/client\/slang-ios-conva-sdk\/ConvaAITelemetry\/Sources\/Internal\/Loggers\/TelemetryEventData.swift",
+      "kind": "StringLiteral",
+      "offset": 958,
+      "length": 10,
+      "value": "\"sdk_type\""
+    },
+    {
+      "filePath": "\/Users\/visvos07\/Github\/phabricator\/polyglot\/client\/slang-ios-conva-sdk\/ConvaAITelemetry\/Sources\/Internal\/Loggers\/TelemetryEventData.swift",
+      "kind": "StringLiteral",
+      "offset": 995,
+      "length": 13,
+      "value": "\"sdk_version\""
+    },
+    {
+      "filePath": "\/Users\/visvos07\/Github\/phabricator\/polyglot\/client\/slang-ios-conva-sdk\/ConvaAITelemetry\/Sources\/Internal\/Loggers\/TelemetryEventData.swift",
+      "kind": "StringLiteral",
+      "offset": 1030,
+      "length": 10,
+      "value": "\"epoch_ms\""
+    },
+    {
+      "filePath": "\/Users\/visvos07\/Github\/phabricator\/polyglot\/client\/slang-ios-conva-sdk\/ConvaAITelemetry\/Sources\/Internal\/Loggers\/TelemetryEventData.swift",
+      "kind": "StringLiteral",
+      "offset": 1063,
+      "length": 8,
+      "value": "\"status\""
+    },
+    {
+      "filePath": "\/Users\/visvos07\/Github\/phabricator\/polyglot\/client\/slang-ios-conva-sdk\/ConvaAITelemetry\/Sources\/Internal\/Config\/TelemetryConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 399,
+      "length": 45,
+      "value": "\"internal.subsystems.telemetry.minimum_level\""
+    },
+    {
+      "filePath": "\/Users\/visvos07\/Github\/phabricator\/polyglot\/client\/slang-ios-conva-sdk\/ConvaAITelemetry\/Sources\/Internal\/Config\/TelemetryConfig.swift",
+      "kind": "IntegerLiteral",
+      "offset": 460,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/visvos07\/Github\/phabricator\/polyglot\/client\/slang-ios-conva-sdk\/ConvaAITelemetry\/Sources\/Internal\/Config\/TelemetryConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 520,
+      "length": 42,
+      "value": "\"internal.subsystems.telemetry.batch_size\""
+    },
+    {
+      "filePath": "\/Users\/visvos07\/Github\/phabricator\/polyglot\/client\/slang-ios-conva-sdk\/ConvaAITelemetry\/Sources\/Internal\/Config\/TelemetryConfig.swift",
+      "kind": "IntegerLiteral",
+      "offset": 578,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/visvos07\/Github\/phabricator\/polyglot\/client\/slang-ios-conva-sdk\/ConvaAITelemetry\/Sources\/Internal\/Config\/TelemetryConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 626,
+      "length": 47,
+      "value": "\"internal.subsystems.telemetry.server_protocol\""
+    },
+    {
+      "filePath": "\/Users\/visvos07\/Github\/phabricator\/polyglot\/client\/slang-ios-conva-sdk\/ConvaAITelemetry\/Sources\/Internal\/Config\/TelemetryConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 689,
+      "length": 7,
+      "value": "\"https\""
+    },
+    {
+      "filePath": "\/Users\/visvos07\/Github\/phabricator\/polyglot\/client\/slang-ios-conva-sdk\/ConvaAITelemetry\/Sources\/Internal\/Config\/TelemetryConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 751,
+      "length": 46,
+      "value": "\"internal.subsystems.telemetry.server_timeout\""
+    },
+    {
+      "filePath": "\/Users\/visvos07\/Github\/phabricator\/polyglot\/client\/slang-ios-conva-sdk\/ConvaAITelemetry\/Sources\/Internal\/Config\/TelemetryConfig.swift",
+      "kind": "IntegerLiteral",
+      "offset": 813,
+      "length": 5,
+      "value": "30000"
+    },
+    {
+      "filePath": "\/Users\/visvos07\/Github\/phabricator\/polyglot\/client\/slang-ios-conva-sdk\/ConvaAITelemetry\/Sources\/Internal\/Config\/TelemetryConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 869,
+      "length": 43,
+      "value": "\"internal.subsystems.telemetry.server_host\""
+    },
+    {
+      "filePath": "\/Users\/visvos07\/Github\/phabricator\/polyglot\/client\/slang-ios-conva-sdk\/ConvaAITelemetry\/Sources\/Internal\/Config\/TelemetryConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 928,
+      "length": 78,
+      "value": "\"omni-telemetry-prod-v2.redisland-25b20936.centralindia.azurecontainerapps.io\""
+    },
+    {
+      "filePath": "\/Users\/visvos07\/Github\/phabricator\/polyglot\/client\/slang-ios-conva-sdk\/ConvaAITelemetry\/Sources\/Internal\/Config\/TelemetryConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 1057,
+      "length": 46,
+      "value": "\"internal.subsystems.telemetry_server_version\""
+    },
+    {
+      "filePath": "\/Users\/visvos07\/Github\/phabricator\/polyglot\/client\/slang-ios-conva-sdk\/ConvaAITelemetry\/Sources\/Internal\/Config\/TelemetryConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 1119,
+      "length": 4,
+      "value": "\"v1\""
+    },
+    {
+      "filePath": "\/Users\/visvos07\/Github\/phabricator\/polyglot\/client\/slang-ios-conva-sdk\/ConvaAITelemetry\/Sources\/Internal\/Config\/TelemetryConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 1177,
+      "length": 48,
+      "value": "\"internal.subsystems.io.telemetry.root_resource\""
+    },
+    {
+      "filePath": "\/Users\/visvos07\/Github\/phabricator\/polyglot\/client\/slang-ios-conva-sdk\/ConvaAITelemetry\/Sources\/Internal\/Config\/TelemetryConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 1241,
+      "length": 12,
+      "value": "\"assistants\""
+    },
+    {
+      "filePath": "\/Users\/visvos07\/Github\/phabricator\/polyglot\/client\/slang-ios-conva-sdk\/ConvaAITelemetry\/Sources\/Internal\/Config\/TelemetryConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 1312,
+      "length": 25,
+      "value": "\"internal.common.loggers\""
+    },
+    {
+      "filePath": "\/Users\/visvos07\/Github\/phabricator\/polyglot\/client\/slang-ios-conva-sdk\/ConvaAITelemetry\/Sources\/Internal\/Config\/TelemetryConfig.swift",
+      "kind": "Array",
+      "offset": 1353,
+      "length": 31,
+      "value": "[\"system_log\", \"telemetry_log\"]"
+    },
+    {
+      "filePath": "\/Users\/visvos07\/Github\/phabricator\/polyglot\/client\/slang-ios-conva-sdk\/ConvaAITelemetry\/Sources\/Internal\/Config\/TelemetryConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 1438,
+      "length": 42,
+      "value": "\"internal.common.config.current_log_level\""
+    },
+    {
+      "filePath": "\/Users\/visvos07\/Github\/phabricator\/polyglot\/client\/slang-ios-conva-sdk\/ConvaAITelemetry\/Sources\/Internal\/Config\/TelemetryConfig.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1496,
+      "length": 1,
+      "value": "0"
+    }
+  ]
+}

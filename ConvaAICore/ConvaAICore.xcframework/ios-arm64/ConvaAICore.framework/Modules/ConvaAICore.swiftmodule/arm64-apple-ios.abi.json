@@ -1732,6 +1732,31 @@
             "implicit": true,
             "throwing": true,
             "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:11ConvaAICore0A12AICapabilityV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s11ConvaAICore0A12AICapabilityV6encode2toys7Encoder_p_tKF",
+            "moduleName": "ConvaAICore",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Struct",
@@ -1749,6 +1774,13 @@
             "printedName": "Decodable",
             "usr": "s:Se",
             "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
           }
         ]
       },
@@ -1781,6 +1813,33 @@
         "declAttributes": [
           "RawDocComment"
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ConvaAICore",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ConvaAICore",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "ConvaAITelemetry",
+        "printedName": "ConvaAITelemetry",
+        "declKind": "Import",
+        "moduleName": "ConvaAICore"
       },
       {
         "kind": "Import",
@@ -2335,196 +2394,196 @@
     {
       "filePath": "\/Users\/visvos07\/Github\/phabricator\/polyglot\/client\/slang-ios-conva-sdk\/ConvaAICore\/Sources\/ConvaAICapability.swift",
       "kind": "StringLiteral",
-      "offset": 2090,
+      "offset": 2086,
       "length": 13,
       "value": "\"input_query\""
     },
     {
       "filePath": "\/Users\/visvos07\/Github\/phabricator\/polyglot\/client\/slang-ios-conva-sdk\/ConvaAICore\/Sources\/ConvaAICapability.swift",
       "kind": "StringLiteral",
-      "offset": 2169,
+      "offset": 2165,
       "length": 19,
       "value": "\"response_language\""
     },
     {
       "filePath": "\/Users\/visvos07\/Github\/phabricator\/polyglot\/client\/slang-ios-conva-sdk\/ConvaAICore\/Sources\/ConvaAICapability.swift",
       "kind": "StringLiteral",
-      "offset": 2208,
+      "offset": 2204,
       "length": 9,
       "value": "\"llm_key\""
     },
     {
       "filePath": "\/Users\/visvos07\/Github\/phabricator\/polyglot\/client\/slang-ios-conva-sdk\/ConvaAICore\/Sources\/ConvaAICapability.swift",
       "kind": "StringLiteral",
-      "offset": 2243,
+      "offset": 2239,
       "length": 12,
       "value": "\"request_id\""
     },
     {
       "filePath": "\/Users\/visvos07\/Github\/phabricator\/polyglot\/client\/slang-ios-conva-sdk\/ConvaAICore\/Sources\/ConvaAICapability.swift",
       "kind": "StringLiteral",
-      "offset": 2284,
+      "offset": 2280,
       "length": 15,
       "value": "\"response_type\""
     },
     {
       "filePath": "\/Users\/visvos07\/Github\/phabricator\/polyglot\/client\/slang-ios-conva-sdk\/ConvaAICore\/Sources\/ConvaAICapability.swift",
       "kind": "StringLiteral",
-      "offset": 2327,
+      "offset": 2323,
       "length": 14,
       "value": "\"message_type\""
     },
     {
       "filePath": "\/Users\/visvos07\/Github\/phabricator\/polyglot\/client\/slang-ios-conva-sdk\/ConvaAICore\/Sources\/ConvaAICapability.swift",
       "kind": "StringLiteral",
-      "offset": 2368,
+      "offset": 2364,
       "length": 11,
       "value": "\"tool_name\""
     },
     {
       "filePath": "\/Users\/visvos07\/Github\/phabricator\/polyglot\/client\/slang-ios-conva-sdk\/ConvaAICore\/Sources\/ConvaAICapability.swift",
       "kind": "StringLiteral",
-      "offset": 2403,
+      "offset": 2399,
       "length": 10,
       "value": "\"is_error\""
     },
     {
       "filePath": "\/Users\/visvos07\/Github\/phabricator\/polyglot\/client\/slang-ios-conva-sdk\/ConvaAICore\/Sources\/ConvaAICapability.swift",
       "kind": "StringLiteral",
-      "offset": 2437,
+      "offset": 2433,
       "length": 10,
       "value": "\"is_final\""
     },
     {
       "filePath": "\/Users\/visvos07\/Github\/phabricator\/polyglot\/client\/slang-ios-conva-sdk\/ConvaAICore\/Sources\/ConvaAICapability.swift",
       "kind": "StringLiteral",
-      "offset": 2477,
+      "offset": 2473,
       "length": 16,
       "value": "\"is_unsupported\""
     },
     {
       "filePath": "\/Users\/visvos07\/Github\/phabricator\/polyglot\/client\/slang-ios-conva-sdk\/ConvaAICore\/Sources\/ConvaAICapability.swift",
       "kind": "StringLiteral",
-      "offset": 2524,
+      "offset": 2520,
       "length": 12,
       "value": "\"parameters\""
     },
     {
       "filePath": "\/Users\/visvos07\/Github\/phabricator\/polyglot\/client\/slang-ios-conva-sdk\/ConvaAICore\/Sources\/ConvaAICapability.swift",
       "kind": "StringLiteral",
-      "offset": 2567,
+      "offset": 2563,
       "length": 17,
       "value": "\"related_queries\""
     },
     {
       "filePath": "\/Users\/visvos07\/Github\/phabricator\/polyglot\/client\/slang-ios-conva-sdk\/ConvaAICore\/Sources\/ConvaAICapability.swift",
       "kind": "StringLiteral",
-      "offset": 2620,
+      "offset": 2616,
       "length": 22,
       "value": "\"conversation_history\""
     },
     {
       "filePath": "\/Users\/visvos07\/Github\/phabricator\/polyglot\/client\/slang-ios-conva-sdk\/ConvaAICore\/Sources\/ConvaAICapability.swift",
       "kind": "StringLiteral",
-      "offset": 2679,
+      "offset": 2675,
       "length": 23,
       "value": "\"is_parameter_complete\""
     },
     {
       "filePath": "\/Users\/visvos07\/Github\/phabricator\/polyglot\/client\/slang-ios-conva-sdk\/ConvaAICore\/Sources\/ConvaAICapability.swift",
       "kind": "StringLiteral",
-      "offset": 2090,
+      "offset": 2086,
       "length": 13,
       "value": "\"input_query\""
     },
     {
       "filePath": "\/Users\/visvos07\/Github\/phabricator\/polyglot\/client\/slang-ios-conva-sdk\/ConvaAICore\/Sources\/ConvaAICapability.swift",
       "kind": "StringLiteral",
-      "offset": 2169,
+      "offset": 2165,
       "length": 19,
       "value": "\"response_language\""
     },
     {
       "filePath": "\/Users\/visvos07\/Github\/phabricator\/polyglot\/client\/slang-ios-conva-sdk\/ConvaAICore\/Sources\/ConvaAICapability.swift",
       "kind": "StringLiteral",
-      "offset": 2208,
+      "offset": 2204,
       "length": 9,
       "value": "\"llm_key\""
     },
     {
       "filePath": "\/Users\/visvos07\/Github\/phabricator\/polyglot\/client\/slang-ios-conva-sdk\/ConvaAICore\/Sources\/ConvaAICapability.swift",
       "kind": "StringLiteral",
-      "offset": 2243,
+      "offset": 2239,
       "length": 12,
       "value": "\"request_id\""
     },
     {
       "filePath": "\/Users\/visvos07\/Github\/phabricator\/polyglot\/client\/slang-ios-conva-sdk\/ConvaAICore\/Sources\/ConvaAICapability.swift",
       "kind": "StringLiteral",
-      "offset": 2284,
+      "offset": 2280,
       "length": 15,
       "value": "\"response_type\""
     },
     {
       "filePath": "\/Users\/visvos07\/Github\/phabricator\/polyglot\/client\/slang-ios-conva-sdk\/ConvaAICore\/Sources\/ConvaAICapability.swift",
       "kind": "StringLiteral",
-      "offset": 2327,
+      "offset": 2323,
       "length": 14,
       "value": "\"message_type\""
     },
     {
       "filePath": "\/Users\/visvos07\/Github\/phabricator\/polyglot\/client\/slang-ios-conva-sdk\/ConvaAICore\/Sources\/ConvaAICapability.swift",
       "kind": "StringLiteral",
-      "offset": 2368,
+      "offset": 2364,
       "length": 11,
       "value": "\"tool_name\""
     },
     {
       "filePath": "\/Users\/visvos07\/Github\/phabricator\/polyglot\/client\/slang-ios-conva-sdk\/ConvaAICore\/Sources\/ConvaAICapability.swift",
       "kind": "StringLiteral",
-      "offset": 2403,
+      "offset": 2399,
       "length": 10,
       "value": "\"is_error\""
     },
     {
       "filePath": "\/Users\/visvos07\/Github\/phabricator\/polyglot\/client\/slang-ios-conva-sdk\/ConvaAICore\/Sources\/ConvaAICapability.swift",
       "kind": "StringLiteral",
-      "offset": 2437,
+      "offset": 2433,
       "length": 10,
       "value": "\"is_final\""
     },
     {
       "filePath": "\/Users\/visvos07\/Github\/phabricator\/polyglot\/client\/slang-ios-conva-sdk\/ConvaAICore\/Sources\/ConvaAICapability.swift",
       "kind": "StringLiteral",
-      "offset": 2477,
+      "offset": 2473,
       "length": 16,
       "value": "\"is_unsupported\""
     },
     {
       "filePath": "\/Users\/visvos07\/Github\/phabricator\/polyglot\/client\/slang-ios-conva-sdk\/ConvaAICore\/Sources\/ConvaAICapability.swift",
       "kind": "StringLiteral",
-      "offset": 2524,
+      "offset": 2520,
       "length": 12,
       "value": "\"parameters\""
     },
     {
       "filePath": "\/Users\/visvos07\/Github\/phabricator\/polyglot\/client\/slang-ios-conva-sdk\/ConvaAICore\/Sources\/ConvaAICapability.swift",
       "kind": "StringLiteral",
-      "offset": 2567,
+      "offset": 2563,
       "length": 17,
       "value": "\"related_queries\""
     },
     {
       "filePath": "\/Users\/visvos07\/Github\/phabricator\/polyglot\/client\/slang-ios-conva-sdk\/ConvaAICore\/Sources\/ConvaAICapability.swift",
       "kind": "StringLiteral",
-      "offset": 2620,
+      "offset": 2616,
       "length": 22,
       "value": "\"conversation_history\""
     },
     {
       "filePath": "\/Users\/visvos07\/Github\/phabricator\/polyglot\/client\/slang-ios-conva-sdk\/ConvaAICore\/Sources\/ConvaAICapability.swift",
       "kind": "StringLiteral",
-      "offset": 2679,
+      "offset": 2675,
       "length": 23,
       "value": "\"is_parameter_complete\""
     },
@@ -2604,6 +2663,41 @@
       "offset": 1552,
       "length": 12,
       "value": "\"assistants\""
+    },
+    {
+      "filePath": "\/Users\/visvos07\/Github\/phabricator\/polyglot\/client\/slang-ios-conva-sdk\/ConvaAICore\/Sources\/Internal\/Preferences.swift",
+      "kind": "StringLiteral",
+      "offset": 156,
+      "length": 23,
+      "value": "\"conva_prefs_device_id\""
+    },
+    {
+      "filePath": "\/Users\/visvos07\/Github\/phabricator\/polyglot\/client\/slang-ios-conva-sdk\/ConvaAICore\/Sources\/Internal\/Logger.swift",
+      "kind": "Dictionary",
+      "offset": 416,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/visvos07\/Github\/phabricator\/polyglot\/client\/slang-ios-conva-sdk\/ConvaAICore\/Sources\/Internal\/Logger.swift",
+      "kind": "Dictionary",
+      "offset": 842,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/visvos07\/Github\/phabricator\/polyglot\/client\/slang-ios-conva-sdk\/ConvaAICore\/Sources\/Internal\/Logger.swift",
+      "kind": "Dictionary",
+      "offset": 1143,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/visvos07\/Github\/phabricator\/polyglot\/client\/slang-ios-conva-sdk\/ConvaAICore\/Sources\/Internal\/Logger.swift",
+      "kind": "Dictionary",
+      "offset": 1517,
+      "length": 3,
+      "value": "[]"
     },
     {
       "filePath": "\/Users\/visvos07\/Github\/phabricator\/polyglot\/client\/slang-ios-conva-sdk\/ConvaAICore\/Sources\/Internal\/ActionRequest.swift",
@@ -2818,14 +2912,14 @@
     {
       "filePath": "\/Users\/visvos07\/Github\/phabricator\/polyglot\/client\/slang-ios-conva-sdk\/ConvaAICore\/Sources\/Internal\/Impl.swift",
       "kind": "StringLiteral",
-      "offset": 273,
+      "offset": 657,
       "length": 15,
       "value": "\"%@:\/\/%@\/%@\/%@\""
     },
     {
       "filePath": "\/Users\/visvos07\/Github\/phabricator\/polyglot\/client\/slang-ios-conva-sdk\/ConvaAICore\/Sources\/Internal\/Impl.swift",
       "kind": "BooleanLiteral",
-      "offset": 684,
+      "offset": 1068,
       "length": 4,
       "value": "true"
     },

@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name         = "ConvaAICore"
-    s.version      = "1.0.5"
+    s.version      = "1.0.6"
     s.summary      = "CocoaPod implementation of ConvaAICore SDK"
     s.description  = <<-DESC
         CONVA.ai from Slang Labs is the world's first Copilot-as-a-Service platform,
@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
     s.license = { :type => 'MIT', :file => 'LICENSE' }
     s.source = { :git => "https://github.com/slanglabs-projects/convaAI-iOS-SDK.git", :tag => s.version.to_s }
     s.authors = { "SlangLabs" => "42@slanglabs.in" }
-    s.vendored_frameworks = "ConvaAICore/ConvaAICore.xcframework"
+    s.vendored_frameworks = "ConvaAICore/ConvaAICore.xcframework", "ConvaAITelemetry/ConvaAITelemetry.xcframework"
 end
 
 
